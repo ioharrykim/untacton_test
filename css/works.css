@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700;900&family=Poppins:wght@300;400;700;900&display=swap');
+
+html {
+  font-family: 'Poppins', 'Noto Sans KR', sans-serif;
+  font-size: 18px;
+}
+body {
+  letter-spacing: -0.05em;
+  overflow-x: hidden;
+}
+p {
+  line-height: 1.4;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* MAIN-CONTAINER */
+.main-container {
+  overflow-x: hidden;
+}
+
+/* HEADER */
+/* NAV */
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  padding-top: 20px;
+}
+.header-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-wrap img {
+  width: 200px;
+}
+nav {
+  display: block;
+}
+.header-menu-links {
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.header-menu-links a:hover {
+  color: #FBAF42;
+}
+.header-menu-links a:last-child {
+  margin-left: 60px;
+}
+
+/* TITLE-AREA */
+.title-area {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CATEGORY-AREA */
+.category-area {
+  max-width: 1320px;
+  margin: 0 auto 100px auto;
+}
+.category-list {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  color: #d2d2d2;
+  font-weight: 700;
+  cursor: pointer;
+}
+.c1:hover, .c2:hover, .c3:hover, .c4:hover {
+  color: #FBAF42;
+}
+ 
+/* THUMB-AREA */
+.thumb-area {
+  overflow: hidden;
+  max-width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.thumb {
+  padding: 30px 0;
+}
+.thumb img {
+  width: 406px;
+  height: 297px;
+  padding: 8px 0;
+  cursor: pointer;
+}
+
+
+/* 반응형 */
+
+/* 1025 to 1540 LAPTOP */
+@media (min-width: 1025px) and (max-width: 1540px) {
+
+  
+} 
+/* 768 to 1024 TABLET */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  
+}
+/* 0 to 767px MOBILE */
+@media (max-width: 768px) {
+
+}   
