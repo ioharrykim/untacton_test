@@ -23,7 +23,6 @@ p {
   position: fixed;
   width: 100%;
   z-index: 10;
-  padding-top: 20px;
   background-color: #fff;
   height: 75px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -33,7 +32,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 12px 50px 0px 50px;
+  margin: 24px 50px 0px 50px;
 }
 .header-menu a {
   text-decoration: none;
@@ -142,7 +141,7 @@ nav img {
 
 .navbar-toggle {
   position: fixed;
-  top: 35px;
+  top: 26px;
   right: 40px;
   width: 30px;
   height: 45px;
