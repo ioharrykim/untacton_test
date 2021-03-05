@@ -24,5 +24,21 @@
   $("nav img").on("click", function () {
     $.fn.fullpage.moveTo(1);
   });
-  
+
+  // slick
+  $('.banner-slide').slick({
+    slide: 'div',
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    // arrow: true,
+    // dots: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    speed: 1000,
+    draggable: false,
+    // fade: true,
+    easing: 'easeInOutQuint'
+  });
+
 })(jQuery);
